@@ -1,11 +1,4 @@
 {
-  "resolutions": {
-    "@taraswap/router-sdk": "1.0.8",
-    "@taraswap/sdk-core": "1.1.1",
-    "@taraswap/v3-sdk": "1.0.4",
-    "@taraswap/v2-sdk": "1.0.4",
-    "regenerator-runtime": "^0.14.1"
-  },
   "name": "sdks",
   "version": "0.0.0",
   "dependencies": {

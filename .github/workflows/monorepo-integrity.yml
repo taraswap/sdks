@@ -41,7 +41,7 @@ jobs:
           YARN_ENABLE_IMMUTABLE_INSTALLS: "false"
 
       - name: 👬🏽 Check for conflicting versions across the monorepo
-        run: yarn g:check:deps:mismatch
+        run: yarn checkCoreDeps
 
       # This check will be disabled while a major version change of sdk-core is underway
       - name: 👬🏽 Check for duplicate dependencies in lock file

@@ -2497,7 +2497,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@manypkg/cli@npm:0.19.2":
+"@manypkg/cli@npm:^0.19.2":
   version: 0.19.2
   resolution: "@manypkg/cli@npm:0.19.2"
   dependencies:
@@ -2518,30 +2518,6 @@ __metadata:
   bin:
     manypkg: bin.js
   checksum: b40e9bff3aaccdfe85b4bfc08aee3b50ccde6c62bbe81ccf9c11e159e7adf26a0ebb990efa68c8fbd05b03ac9da5d6301b362c40c319e6ff6be45489361bd5c9
-  languageName: node
-  linkType: hard
-
-"@manypkg/cli@patch:@manypkg/cli@npm%3A0.19.2#./.yarn/patches/@manypkg-cli-npm-0.19.2-ea52ff91d4.patch::locator=sdks%40workspace%3A.":
-  version: 0.19.2
-  resolution: "@manypkg/cli@patch:@manypkg/cli@npm%3A0.19.2#./.yarn/patches/@manypkg-cli-npm-0.19.2-ea52ff91d4.patch::version=0.19.2&hash=f49145&locator=sdks%40workspace%3A."
-  dependencies:
-    "@babel/runtime": ^7.5.5
-    "@manypkg/get-packages": ^1.1.3
-    chalk: ^2.4.2
-    detect-indent: ^6.0.0
-    find-up: ^4.1.0
-    fs-extra: ^8.1.0
-    normalize-path: ^3.0.0
-    p-limit: ^2.2.1
-    package-json: ^6.5.0
-    parse-github-url: ^1.0.2
-    sembear: ^0.5.0
-    semver: ^6.3.0
-    spawndamnit: ^2.0.0
-    validate-npm-package-name: ^3.0.0
-  bin:
-    manypkg: bin.js
-  checksum: 5265dd04a2c819bbfc48e7ca634237b5751a633cd6a453cfb4bca1b8250f4c461304b9649b8dfb4c14a685e8fcc9a44d139417e88c68575cb222ede71380136a
   languageName: node
   linkType: hard
 
@@ -3805,31 +3781,14 @@ __metadata:
   dependencies:
     "@ethersproject/abi": ^5.5.0
     "@taraswap/sdk-core": ^1.1.1
-    "@taraswap/v2-sdk": ^1.0.3
-    "@taraswap/v3-sdk": ^1.0.3
+    "@taraswap/v2-sdk": ^1.0.4
+    "@taraswap/v3-sdk": ^1.0.4
     "@types/jest": ^24.0.25
     "@uniswap/swap-router-contracts": ^1.3.0
     prettier: ^2.4.1
     tsdx: ^0.14.1
   languageName: unknown
   linkType: soft
-
-"@taraswap/sdk-core@npm:^1.1.0":
-  version: 1.1.0
-  resolution: "@taraswap/sdk-core@npm:1.1.0"
-  dependencies:
-    "@ethersproject/address": ^5.0.2
-    "@ethersproject/bytes": ^5.7.0
-    "@ethersproject/keccak256": 5.7.0
-    "@ethersproject/strings": 5.7.0
-    big.js: ^5.2.2
-    decimal.js-light: ^2.5.0
-    jsbi: ^3.1.4
-    tiny-invariant: ^1.1.0
-    toformat: ^2.0.0
-  checksum: 493d7a2cb0b21b742d617e63d406219b1085e6a3349427a8bc82875ed9ca2fd8f6bf238e87a2ee6d9732a4990ca321f6184abfc76c028a63ff34a62dcc28d646
-  languageName: node
-  linkType: hard
 
 "@taraswap/sdk-core@npm:^1.1.1":
   version: 1.1.1
@@ -3919,8 +3878,8 @@ __metadata:
     "@taraswap/permit2-sdk": ^1.0.2
     "@taraswap/router-sdk": ^1.0.8
     "@taraswap/sdk-core": ^1.1.1
-    "@taraswap/v2-sdk": ^1.0.3
-    "@taraswap/v3-sdk": ^1.0.3
+    "@taraswap/v2-sdk": ^1.0.4
+    "@taraswap/v3-sdk": ^1.0.4
     "@types/chai": ^4.3.3
     "@types/mocha": ^9.1.1
     "@types/node": ^18.7.16
@@ -3941,16 +3900,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@taraswap/v2-sdk@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "@taraswap/v2-sdk@npm:1.0.3"
+"@taraswap/v2-sdk@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "@taraswap/v2-sdk@npm:1.0.4"
   dependencies:
     "@ethersproject/address": ^5.0.2
     "@ethersproject/solidity": ^5.0.9
-    "@taraswap/sdk-core": ^1.1.0
+    "@taraswap/sdk-core": ^1.1.1
     tiny-invariant: ^1.1.0
     tiny-warning: ^1.0.3
-  checksum: 92e5936820bc07c9b25e949e2e8b764be276b7c6db93aa0e5163fa339777e1d31504578372e4a3671d28738423a17d812c220923586bb65a9932e3ad40b8a80b
+  checksum: fabfac467449a31f8175bdf054446cd31f0ca22b1e42c347b67832b6a351b3db9e906f1eee9e873d4eee48f7bdf1c9e86a826468bf4639b0116f053a0f45a82a
   languageName: node
   linkType: hard
 
@@ -3984,19 +3943,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@taraswap/v3-sdk@npm:^1.0.3":
-  version: 1.0.3
-  resolution: "@taraswap/v3-sdk@npm:1.0.3"
+"@taraswap/v3-sdk@npm:^1.0.4":
+  version: 1.0.4
+  resolution: "@taraswap/v3-sdk@npm:1.0.4"
   dependencies:
     "@ethersproject/abi": ^5.5.0
     "@ethersproject/solidity": ^5.0.9
-    "@taraswap/sdk-core": ^1.1.0
+    "@taraswap/sdk-core": ^1.1.1
     "@uniswap/swap-router-contracts": ^1.3.0
     "@uniswap/v3-periphery": ^1.1.1
     "@uniswap/v3-staker": 1.0.0
     tiny-invariant: ^1.1.0
     tiny-warning: ^1.0.3
-  checksum: 94088cf0d1db710fb0becea5aed8efc39eb1fd5ee6e30aef865ec4215cd9eb52085f200e7ca82c9fff95013a49c0147364efff33d8d6f9f869dcec3a565f4428
+  checksum: 38e61a70905d935c147e2e02fbf91a5fcae99cd7836815227723ff5bc2e583c4f4b1f3b80cd0fa8087cd7826c5a5310ce878c347760810c4a7adff56825c3a7c
   languageName: node
   linkType: hard
 
@@ -17801,7 +17760,7 @@ __metadata:
     "@nomicfoundation/hardhat-chai-matchers": 1.0.6
     "@nomicfoundation/hardhat-network-helpers": ^1.0.10
     "@nomiclabs/hardhat-ethers": ^2.2.3
-    "@taraswap/sdk-core": ^1.1.0
+    "@taraswap/sdk-core": ^1.1.1
     "@typechain/ethers-v5": ^10.1.0
     "@typechain/hardhat": ^6.1.2
     "@types/chai": ^4.3.3

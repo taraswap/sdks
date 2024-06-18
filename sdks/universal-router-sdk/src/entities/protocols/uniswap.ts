@@ -217,7 +217,10 @@ function addV3Swap<TInput extends Currency, TOutput extends Currency>(
     tradeType,
   })
 
-  const path = encodeRouteToPath(route as unknown as RouteV3<TInput, TOutput>, trade.tradeType === TradeType.EXACT_OUTPUT)
+  const path = encodeRouteToPath(
+    route as unknown as RouteV3<TInput, TOutput>,
+    trade.tradeType === TradeType.EXACT_OUTPUT
+  )
   if (tradeType == TradeType.EXACT_INPUT) {
     planner.addCommand(CommandType.V3_SWAP_EXACT_IN, [
       routerMustCustody ? ROUTER_AS_RECIPIENT : options.recipient,

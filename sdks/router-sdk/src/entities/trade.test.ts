@@ -23,7 +23,7 @@ describe('Trade', () => {
   const token2 = new Token(841, '0x0000000000000000000000000000000000000003', 18, 't2', 'token2')
   const token3 = new Token(841, '0x0000000000000000000000000000000000000004', 18, 't3', 'token3')
   const token4WithTax = new Token(
-    1,
+    841,
     '0x0000000000000000000000000000000000000005',
     18,
     't4',
@@ -33,7 +33,7 @@ describe('Trade', () => {
     BigNumber.from(100)
   )
   const token5WithTax = new Token(
-    1,
+    841,
     '0x0000000000000000000000000000000000000005',
     18,
     't5',

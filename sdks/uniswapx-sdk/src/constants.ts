@@ -20,10 +20,9 @@ export function constructSameAddressMap<T>(
 }
 
 export const PERMIT2_MAPPING: AddressMap = {
-  ...constructSameAddressMap("0x000000000022d473030f116ddee9f6b43ac78ba3"),
-  11155111: "0x000000000022d473030f116ddee9f6b43ac78ba3",
-  42161: "0x000000000022d473030f116ddee9f6b43ac78ba3",
-  12341234: "0x000000000022d473030f116ddee9f6b43ac78ba3",
+  841: "0x171568A7f3375301A001721dbFC5DeCb995D11ee",
+  842: "0x171568A7f3375301A001721dbFC5DeCb995D11ee", //todo: mainnet permi2 address
+  1: "0x000000000022d473030f116ddee9f6b43ac78ba3",
 };
 
 export const UNISWAPX_ORDER_QUOTER_MAPPING: AddressMap = {
@@ -62,31 +61,11 @@ type ReverseReactorMapping = {
 };
 
 export const REACTOR_ADDRESS_MAPPING: ReactorMapping = {
-  ...constructSameAddressMap({
-    [OrderType.Dutch]: "0x6000da47483062A0D734Ba3dc7576Ce6A0B645C4",
-    [OrderType.Dutch_V2]: "0x0000000000000000000000000000000000000000",
-    [OrderType.Relay]: "0x0000000000A4e21E2597DCac987455c48b12edBF",
-  }),
   //test contract is only on mainnet
   1: {
     [OrderType.Dutch]: "0x6000da47483062A0D734Ba3dc7576Ce6A0B645C4",
     [OrderType.Dutch_V2]: "0x00000011F84B9aa48e5f8aA8B9897600006289Be",
     [OrderType.Relay]: "0x0000000000A4e21E2597DCac987455c48b12edBF",
-  },
-  12341234: {
-    [OrderType.Dutch]: "0xbD7F9D0239f81C94b728d827a87b9864972661eC",
-    [OrderType.Dutch_V2]: "0x0000000000000000000000000000000000000000",
-    [OrderType.Relay]: "0x0000000000A4e21E2597DCac987455c48b12edBF",
-  },
-  11155111: {
-    [OrderType.Dutch_V2]: "0x0e22B6638161A89533940Db590E67A52474bEBcd",
-    [OrderType.Dutch]: "0xD6c073F2A3b676B8f9002b276B618e0d8bA84Fad",
-    [OrderType.Relay]: "0x0000000000A4e21E2597DCac987455c48b12edBF",
-  },
-  42161: {
-    [OrderType.Dutch_V2]: "0x1bd1aAdc9E230626C44a139d7E70d842749351eb",
-    [OrderType.Dutch]: "0x0000000000000000000000000000000000000000",
-    [OrderType.Relay]: "0x0000000000000000000000000000000000000000",
   },
 };
 

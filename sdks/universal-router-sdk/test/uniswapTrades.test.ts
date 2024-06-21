@@ -228,7 +228,6 @@ describe('Uniswap', () => {
         CurrencyAmount.fromRawAmount(USDC, outputUSDC),
         TradeType.EXACT_OUTPUT
       )
-      const routerTrade = buildTrade([trade])
       const opts = swapOptions({})
       const methodParameters = SwapRouter.swapERC20CallParameters(buildTrade([trade]), opts)
       const methodParametersV2 = SwapRouter.swapCallParameters(new UniswapTrade(buildTrade([trade]), opts))

@@ -10,7 +10,6 @@ import {
   _997,
   BASIS_POINTS,
   FACTORY_ADDRESS,
-  FACTORY_ADDRESS_MAP,
   FIVE,
   INIT_CODE_HASH,
   MINIMUM_LIQUIDITY,
@@ -42,7 +41,7 @@ export class Pair {
   private readonly tokenAmounts: [CurrencyAmount<Token>, CurrencyAmount<Token>]
 
   public static getAddress(tokenA: Token, tokenB: Token): string {
-    const factoryAddress = FACTORY_ADDRESS_MAP[tokenA.chainId] ?? FACTORY_ADDRESS
+    const factoryAddress = FACTORY_ADDRESS
     return computePairAddress({ factoryAddress, tokenA, tokenB })
   }
 

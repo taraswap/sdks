@@ -21,5 +21,5 @@
 	url = https://github.com/Uniswap/permit2
 [submodule "sdks/universal-router-sdk/lib/openzeppelin-contracts"]
 	path = sdks/universal-router-sdk/lib/openzeppelin-contracts
-	url = https://github.com/openzeppelin/openzeppelin-contracts
+	url = https://github.com/OpenZeppelin/openzeppelin-contracts
 	branch = v4.8.0

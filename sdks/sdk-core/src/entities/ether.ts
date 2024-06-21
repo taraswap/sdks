@@ -5,11 +5,11 @@ import { Token } from './token'
 import { WETH9 } from './weth9'
 
 /**
- * Ether is the main usage of a 'native' currency, i.e. for Ethereum mainnet and all testnets
+ * Ether is the main usage of a 'native' currency, i.e. for Taraxa mainnet and testnet
  */
 export class Ether extends NativeCurrency {
   protected constructor(chainId: number) {
-    super(chainId, 18, 'ETH', 'Ether')
+    super(chainId, 18, 'TARA', 'Tara')
   }
 
   public get wrapped(): Token {

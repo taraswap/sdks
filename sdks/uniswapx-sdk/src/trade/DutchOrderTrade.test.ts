@@ -85,7 +85,7 @@ describe("DutchOrderTrade", () => {
       ...orderInfo,
       outputs: [
         {
-          token: NativeAssets.ETH,
+          token: NativeAssets.TARAXA,
           startAmount: NON_FEE_OUTPUT_AMOUNT,
           endAmount: NON_FEE_MINIMUM_AMOUNT_OUT,
           recipient: "0x0000000000000000000000000000000000000000",

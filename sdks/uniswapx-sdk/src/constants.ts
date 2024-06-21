@@ -3,9 +3,8 @@ import { ChainId } from "@taraswap/sdk-core";
 type AddressMap = { readonly [key: number]: string };
 
 const NETWORKS_WITH_SAME_ADDRESS: ChainId[] = [
-  ChainId.MAINNET,
-  ChainId.GOERLI,
-  ChainId.POLYGON,
+  ChainId.TARAXA,
+  ChainId.TARAXA_TESTNET,
 ];
 
 export function constructSameAddressMap<T>(

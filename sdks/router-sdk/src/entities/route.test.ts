@@ -6,11 +6,11 @@ import { Route as V2RouteSDK, Pair } from '@taraswap/v2-sdk'
 import { RouteV2 } from './route'
 
 describe('RouteV3', () => {
-  const ETHER = Ether.onChain(1)
-  const token0 = new Token(1, '0x0000000000000000000000000000000000000001', 18, 't0')
-  const token1 = new Token(1, '0x0000000000000000000000000000000000000002', 18, 't1')
-  const token2 = new Token(1, '0x0000000000000000000000000000000000000003', 18, 't2')
-  const weth = WETH9[1]
+  const ETHER = Ether.onChain(841)
+  const token0 = new Token(841, '0x0000000000000000000000000000000000000001', 18, 't0')
+  const token1 = new Token(841, '0x0000000000000000000000000000000000000002', 18, 't1')
+  const token2 = new Token(841, '0x0000000000000000000000000000000000000003', 18, 't2')
+  const weth = WETH9[841]
 
   const pool_0_1 = new Pool(token0, token1, FeeAmount.MEDIUM, encodeSqrtRatioX96(1, 1), 0, 0, [])
   const pool_0_weth = new Pool(token0, weth, FeeAmount.MEDIUM, encodeSqrtRatioX96(1, 1), 0, 0, [])
@@ -179,10 +179,10 @@ describe('RouteV3', () => {
 })
 
 describe('RouteV2', () => {
-  const ETHER = Ether.onChain(1)
+  const ETHER = Ether.onChain(841)
   const token0 = new Token(1, '0x0000000000000000000000000000000000000001', 18, 't0')
   const token1 = new Token(1, '0x0000000000000000000000000000000000000002', 18, 't1')
-  const weth = WETH9[1]
+  const weth = WETH9[841]
   const pair_0_1 = new Pair(CurrencyAmount.fromRawAmount(token0, '100'), CurrencyAmount.fromRawAmount(token1, '200'))
   const pair_0_weth = new Pair(CurrencyAmount.fromRawAmount(token0, '100'), CurrencyAmount.fromRawAmount(weth, '100'))
   const pair_1_weth = new Pair(CurrencyAmount.fromRawAmount(token1, '175'), CurrencyAmount.fromRawAmount(weth, '100'))

@@ -16,12 +16,12 @@ import { Pair, Route as V2RouteSDK } from '@taraswap/v2-sdk'
 import { MixedRouteSDK } from './mixedRoute/route'
 
 describe('Trade', () => {
-  const ETHER = Ether.onChain(1)
-  const weth = WETH9[1]
-  const token0 = new Token(1, '0x0000000000000000000000000000000000000001', 18, 't0', 'token0')
-  const token1 = new Token(1, '0x0000000000000000000000000000000000000002', 18, 't1', 'token1')
-  const token2 = new Token(1, '0x0000000000000000000000000000000000000003', 18, 't2', 'token2')
-  const token3 = new Token(1, '0x0000000000000000000000000000000000000004', 18, 't3', 'token3')
+  const ETHER = Ether.onChain(841)
+  const weth = WETH9[841]
+  const token0 = new Token(841, '0x0000000000000000000000000000000000000001', 18, 't0', 'token0')
+  const token1 = new Token(841, '0x0000000000000000000000000000000000000002', 18, 't1', 'token1')
+  const token2 = new Token(841, '0x0000000000000000000000000000000000000003', 18, 't2', 'token2')
+  const token3 = new Token(841, '0x0000000000000000000000000000000000000004', 18, 't3', 'token3')
   const token4WithTax = new Token(
     1,
     '0x0000000000000000000000000000000000000005',

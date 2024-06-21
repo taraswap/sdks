@@ -2,22 +2,16 @@ import { ChainId, Currency } from "@taraswap/sdk-core";
 import { constants } from "ethers";
 
 export enum NativeAssets {
-  MATIC = "MATIC",
-  BNB = "BNB",
-  AVAX = "AVAX",
-  ETH = "ETH",
+  TESTNET_TARAXA = "TARA",
+  TARAXA = "TARA",
 }
 
 function nativeCurrencyAddressString(chainId: number): string {
   switch (chainId) {
-    case ChainId.POLYGON:
-      return NativeAssets.MATIC;
-    case ChainId.BNB:
-      return NativeAssets.BNB;
-    case ChainId.AVALANCHE:
-      return NativeAssets.AVAX;
+    case ChainId.TARAXA_TESTNET:
+      return NativeAssets.TESTNET_TARAXA;
     default:
-      return NativeAssets.ETH;
+      return NativeAssets.TARAXA;
   }
 }
 

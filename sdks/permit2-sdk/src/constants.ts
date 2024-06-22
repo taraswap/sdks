@@ -5,8 +5,10 @@ export const PERMIT2_ADDRESS = '0x000000000022D473030F116dDEE9F6B43aC78BA3'
 
 export function permit2Address(chainId?: number): string {
   switch (chainId) {
-    case 324:
-      return '0x0000000000225e31D15943971F47aD3022F714Fa'
+    case 841:
+      return '0x171568A7f3375301A001721dbFC5DeCb995D11ee' //todo: replace with taraxa address
+    case 842:
+      return '0x171568A7f3375301A001721dbFC5DeCb995D11ee'
     default:
       return PERMIT2_ADDRESS
   }

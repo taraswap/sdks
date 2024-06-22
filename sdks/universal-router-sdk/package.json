@@ -31,10 +31,10 @@
   },
   "dependencies": {
     "@taraswap/permit2-sdk": "^1.0.2",
-    "@taraswap/router-sdk": "^1.0.13",
+    "@taraswap/router-sdk": "^1.0.14",
     "@taraswap/sdk-core": "^1.2.3",
-    "@taraswap/v2-sdk": "^1.0.6",
-    "@taraswap/v3-sdk": "^1.0.6",
+    "@taraswap/v2-sdk": "^1.0.7",
+    "@taraswap/v3-sdk": "^1.0.7",
     "@uniswap/universal-router": "1.6.0",
     "bignumber.js": "^9.0.2",
     "ethers": "^5.7.0"

@@ -3740,13 +3740,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@taraswap/permit2-sdk@npm:^1.0.2":
-  version: 1.0.2
-  resolution: "@taraswap/permit2-sdk@npm:1.0.2"
+"@taraswap/permit2-sdk@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@taraswap/permit2-sdk@npm:1.0.3"
   dependencies:
     ethers: ^5.7.0
     tiny-invariant: ^1.1.0
-  checksum: 22839cedce579e34a18b33b7457d3be22441c322a4148c4845fa2a90df52c32f7ea4ebd5d651d410081e761f9dd4b1fe836e70681a985ac509c57ae0c35fc925
+  checksum: f6048085bea5d569e1afe7a51365ea88ae226e78f8a39773a65b9ff0f5dd8e148ac68dbe55cf61131ac450bd5e7529fc8595dd191cbb6f5ae8b32967509bad9d
   languageName: node
   linkType: hard
 
@@ -3762,16 +3762,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@taraswap/router-sdk@npm:1.0.14":
-  version: 1.0.14
-  resolution: "@taraswap/router-sdk@npm:1.0.14"
+"@taraswap/router-sdk@npm:1.0.15":
+  version: 1.0.15
+  resolution: "@taraswap/router-sdk@npm:1.0.15"
   dependencies:
     "@ethersproject/abi": ^5.5.0
     "@taraswap/sdk-core": ^1.2.3
-    "@taraswap/v2-sdk": ^1.0.6
-    "@taraswap/v3-sdk": ^1.0.6
+    "@taraswap/v2-sdk": ^1.0.7
+    "@taraswap/v3-sdk": ^1.0.7
     "@uniswap/swap-router-contracts": ^1.3.0
-  checksum: 877f77506f2c0b7162bd1dd4991b8dc0b1ea1bfddd896bd7906c59ad3de9acc0d5a70b6ce0502cfe2f83b6fd0ec03c3484c6748b9a6fed40005994d5e701b9f2
+  checksum: d22f2ec672a78835bfdb876e3ae5a57e5f0d21dea250ec90a0b13c202beeaa84af1cb6069f6c915d183441bdb832209fe659031715d60f1c39f91a47a06056bf
   languageName: node
   linkType: hard
 
@@ -3832,7 +3832,7 @@ __metadata:
   dependencies:
     "@ethersproject/bytes": ^5.7.0
     "@ethersproject/providers": ^5.7.0
-    "@taraswap/permit2-sdk": ^1.0.2
+    "@taraswap/permit2-sdk": ^1.0.3
     "@taraswap/sdk-core": ^1.2.3
     "@typechain/ethers-v5": ^10.1.0
     "@types/jest": ^24.0.25
@@ -3861,8 +3861,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@taraswap/universal-router-sdk@workspace:sdks/universal-router-sdk"
   dependencies:
-    "@taraswap/permit2-sdk": ^1.0.2
-    "@taraswap/router-sdk": ^1.0.14
+    "@taraswap/permit2-sdk": ^1.0.3
+    "@taraswap/router-sdk": ^1.0.15
     "@taraswap/sdk-core": ^1.2.3
     "@taraswap/v2-sdk": ^1.0.7
     "@taraswap/v3-sdk": ^1.0.7

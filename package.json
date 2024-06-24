@@ -16,7 +16,7 @@
     "turbo": "1.10.16"
   },
   "resolutions": {
-    "@taraswap/router-sdk": "1.0.11",
+    "@taraswap/router-sdk": "1.1.2",
     "@taraswap/v2-sdk": "1.1.1",
     "@taraswap/sdk-core": "1.4.0",
     "@taraswap/v3-sdk": "1.1.1"

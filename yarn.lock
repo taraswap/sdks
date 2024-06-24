@@ -3762,16 +3762,16 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@taraswap/router-sdk@npm:1.0.11":
-  version: 1.0.11
-  resolution: "@taraswap/router-sdk@npm:1.0.11"
+"@taraswap/router-sdk@npm:1.1.2":
+  version: 1.1.2
+  resolution: "@taraswap/router-sdk@npm:1.1.2"
   dependencies:
     "@ethersproject/abi": ^5.5.0
-    "@taraswap/sdk-core": ^1.1.2
-    "@taraswap/v2-sdk": ^1.0.5
-    "@taraswap/v3-sdk": ^1.0.5
+    "@taraswap/sdk-core": ^1.4.0
+    "@taraswap/v2-sdk": ^1.1.1
+    "@taraswap/v3-sdk": ^1.1.1
     "@uniswap/swap-router-contracts": ^1.3.0
-  checksum: e35d381ae9c1f439f5b08170edf4a850de96d93eef3d8a57fdac050874de626b925ac2b4237aee10cd73a91bb76bb6f2edf68bbb0d67c310a03052dce667e5ae
+  checksum: a62d9b50dc5c720145d8d1b30046f258a7c6d911d88bc6671f1e8d80b697a3af39ca7ba28523fccfa5572f521ee29db036a8ea72fcbd9e42fb30e2fa051d11df
   languageName: node
   linkType: hard
 
@@ -3862,7 +3862,7 @@ __metadata:
   resolution: "@taraswap/universal-router-sdk@workspace:sdks/universal-router-sdk"
   dependencies:
     "@taraswap/permit2-sdk": ^1.1.0
-    "@taraswap/router-sdk": ^1.1.1
+    "@taraswap/router-sdk": ^1.1.2
     "@taraswap/sdk-core": ^1.4.0
     "@taraswap/v2-sdk": ^1.1.1
     "@taraswap/v3-sdk": ^1.1.1

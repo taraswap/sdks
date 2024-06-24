@@ -256,6 +256,16 @@ const TARAXA_TESTNET_ADDRESSES: ChainAddresses = {
   swapRouter02Address: '0xC5C0A2C28C000788Fcf41ACa8Dc8B5fd4c1838C8',
 }
 
+const TARAXA_ADDRESSES: ChainAddresses = { //todo: add real addresses
+  v3CoreFactoryAddress: '0x9ad1044499a38B373BC8F29643612967bac9e901',
+  multicallAddress: '0x98edEa58C0500287B973348ec315f3d26D0e189A',
+  quoterAddress: '0x4698ecaCAD74c789531Df4b8983a9E6E7941319C',
+  v3MigratorAddress: '0xe2022Fb10F91014D0087BEdDA9d279b3Db57d173',
+  nonfungiblePositionManagerAddress: '0x539A493AE96A1846Aa7626361d819646d048ab16',
+  tickLensAddress: '0xa57e3E31d5b66f62Ed654Bdd709B9903D88226de',
+  swapRouter02Address: '0xC5C0A2C28C000788Fcf41ACa8Dc8B5fd4c1838C8',
+}
+
 export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses> = {
   [ChainId.MAINNET]: MAINNET_ADDRESSES,
   [ChainId.OPTIMISM]: OPTIMISM_ADDRESSES,
@@ -280,6 +290,7 @@ export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses>
   [ChainId.BLAST]: BLAST_ADDRESSES,
   [ChainId.ZKSYNC]: ZKSYNC_ADDRESSES,
   [ChainId.TARAXA_TESTNET]: TARAXA_TESTNET_ADDRESSES,
+  [ChainId.TARAXA]: TARAXA_ADDRESSES,
 }
 
 /* V3 Contract Addresses */

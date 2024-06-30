@@ -247,23 +247,23 @@ const ZKSYNC_ADDRESSES: ChainAddresses = {
 }
 
 const TARAXA_TESTNET_ADDRESSES: ChainAddresses = {
-  v3CoreFactoryAddress: '0x9ad1044499a38B373BC8F29643612967bac9e901',
-  multicallAddress: '0x98edEa58C0500287B973348ec315f3d26D0e189A',
-  quoterAddress: '0x4698ecaCAD74c789531Df4b8983a9E6E7941319C',
-  v3MigratorAddress: '0xe2022Fb10F91014D0087BEdDA9d279b3Db57d173',
-  nonfungiblePositionManagerAddress: '0x539A493AE96A1846Aa7626361d819646d048ab16',
-  tickLensAddress: '0xa57e3E31d5b66f62Ed654Bdd709B9903D88226de',
-  swapRouter02Address: '0xC5C0A2C28C000788Fcf41ACa8Dc8B5fd4c1838C8',
+  v3CoreFactoryAddress: '0x30c708A962641B223b6b78237A402FAeD9860fc2',
+  multicallAddress: '0xA024De1ca9dA426e4300e8e741c81ABf9E23eEB3',
+  quoterAddress: '0xeb8eD5Bc26bC56124A226BbC2C346341560D5fb0',
+  v3MigratorAddress: '0xc0DE7F72199295F72E1E0015D11b77F2681e1140',
+  nonfungiblePositionManagerAddress: '0x1dfE3eEcbC234F2795Df358DD8Cc8DFAbdF38715',
+  tickLensAddress: '0x5289040F08daD992FcE25fC3C3C6FC51B7E94932',
+  swapRouter02Address: '0xf05Ca261A4bd51cEC0dB46710C0e0460e4890cbE',
 }
 
-const TARAXA_ADDRESSES: ChainAddresses = { //todo: add real addresses
-  v3CoreFactoryAddress: '0x9ad1044499a38B373BC8F29643612967bac9e901',
-  multicallAddress: '0x98edEa58C0500287B973348ec315f3d26D0e189A',
-  quoterAddress: '0x4698ecaCAD74c789531Df4b8983a9E6E7941319C',
-  v3MigratorAddress: '0xe2022Fb10F91014D0087BEdDA9d279b3Db57d173',
-  nonfungiblePositionManagerAddress: '0x539A493AE96A1846Aa7626361d819646d048ab16',
-  tickLensAddress: '0xa57e3E31d5b66f62Ed654Bdd709B9903D88226de',
-  swapRouter02Address: '0xC5C0A2C28C000788Fcf41ACa8Dc8B5fd4c1838C8',
+const TARAXA_ADDRESSES: ChainAddresses = {
+  v3CoreFactoryAddress: '0x5EFAc029721023DD6859AFc8300d536a2d6d4c82',
+  multicallAddress: '0x30c708A962641B223b6b78237A402FAeD9860fc2',
+  quoterAddress: '0xc0DE7F72199295F72E1E0015D11b77F2681e1140',
+  v3MigratorAddress: '0xCd89dB7E3E32D8D273532814c9c94868db6A8642',
+  nonfungiblePositionManagerAddress: '0x1C5A295E9860d127D8A3E7af138Bb945c4377ae7',
+  tickLensAddress: '0xA024De1ca9dA426e4300e8e741c81ABf9E23eEB3',
+  swapRouter02Address: '0x24ef945323253684CffB60e43b7737A6678433CC',
 }
 
 export const CHAIN_TO_ADDRESSES_MAP: Record<SupportedChainsType, ChainAddresses> = {

@@ -115,15 +115,14 @@ const CHAIN_CONFIGS: { [key: number]: ChainConfig } = {
     creationBlock: 12640979,
   },
   [842]: {
-    router: '0x8bbe419af654416e0f8f2389fed6cdc7992a647f',
-    weth: '0x5745CC77c362D459b78bC014d8940c2c98E08c54',
-    creationBlock: 572116,
+    router: '0xbc57cc38eee7De9DD608F2635C587D100199999d',
+    weth: '0x77f0ceda294cb940b9704ddf3ca3a9faa742381f',
+    creationBlock: 21145,
   },
   [841]: {
-    //todo: replace with real addresses
-    router: '0x8bbe419af654416e0f8f2389fed6cdc7992a647f',
-    weth: '0x5745CC77c362D459b78bC014d8940c2c98E08c54',
-    creationBlock: 572116,
+    router: '0xf05Ca261A4bd51cEC0dB46710C0e0460e4890cbE',
+    weth: '0x5d0fa4c5668e5809c83c95a7cef3a9dd7c68d4fe',
+    creationBlock: 10677891,
   },
 }
 

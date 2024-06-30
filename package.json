@@ -18,7 +18,7 @@
   "resolutions": {
     "@taraswap/router-sdk": "1.1.2",
     "@taraswap/v2-sdk": "1.1.1",
-    "@taraswap/sdk-core": "1.4.0",
+    "@taraswap/sdk-core": "1.4.1",
     "@taraswap/v3-sdk": "1.1.1"
   },
   "engines": {

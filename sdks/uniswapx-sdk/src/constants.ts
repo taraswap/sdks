@@ -2,11 +2,7 @@ import { ChainId } from "@taraswap/sdk-core";
 
 type AddressMap = { readonly [key: number]: string };
 
-const NETWORKS_WITH_SAME_ADDRESS: ChainId[] = [
-  ChainId.MAINNET,
-  ChainId.GOERLI,
-  ChainId.POLYGON,
-];
+const NETWORKS_WITH_SAME_ADDRESS: ChainId[] = [ChainId.MAINNET, ChainId.GOERLI, ChainId.POLYGON];
 
 export function constructSameAddressMap<T>(
   address: T,
@@ -25,7 +21,7 @@ export const PERMIT2_MAPPING: AddressMap = {
   11155111: "0x000000000022d473030f116ddee9f6b43ac78ba3",
   42161: "0x000000000022d473030f116ddee9f6b43ac78ba3",
   12341234: "0x000000000022d473030f116ddee9f6b43ac78ba3",
-  841: "0x4784f74885bB1056Ae5168F166Fb3235511Be14C",
+  841: "0xe7a62cda3b34a90a6fcc927e36692bf4c9481be1",
   842: "0x4784f74885bB1056Ae5168F166Fb3235511Be14C",
 };
 
@@ -98,23 +94,22 @@ export const REACTOR_CONTRACT_MAPPING: ReactorMapping = REACTOR_ADDRESS_MAPPING;
 
 // https://github.com/mds1/multicall
 export const multicallAddressOn = (chainId = 1) => {
-  switch(chainId) {
+  switch (chainId) {
     // multicall3 is deployed to a different address on zksync than all other EVM chains
-    // due to differences in create2 address derivation 
+    // due to differences in create2 address derivation
     // deployment address from: https://github.com/mds1/multicall/blob/d7b62458c99c650ce1efa7464ffad69d2059ad56/deployments.json#L927
     case 324:
       return "0xF9cda624FBC7e059355ce98a31693d299FACd963";
     default:
       return "0xcA11bde05977b3631167028862bE2a173976CA11";
   }
-}
+};
 
-export const RELAY_SENTINEL_RECIPIENT =
-  "0x0000000000000000000000000000000000000000";
+export const RELAY_SENTINEL_RECIPIENT = "0x0000000000000000000000000000000000000000";
 
 export const REVERSE_REACTOR_MAPPING: ReverseReactorMapping = Object.entries(
   REACTOR_ADDRESS_MAPPING
-// eslint-disable-next-line @typescript-eslint/no-unused-vars
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
 ).reduce((acc: ReverseReactorMapping, [_, orderTypes]) => {
   for (const [orderType, reactorAddress] of Object.entries(orderTypes)) {
     // lowercase for consistency when parsing orders

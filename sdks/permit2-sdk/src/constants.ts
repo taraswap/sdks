@@ -1,7 +1,7 @@
 import { BigNumber } from '@ethersproject/bignumber'
 
 // @deprecated please use permit2Address(chainId: number)
-export const PERMIT2_ADDRESS = '0x000000000022D473030F116dDEE9F6B43aC78BA3'
+export const PERMIT2_ADDRESS = '0xe7a62cda3b34a90a6fcc927e36692bf4c9481be1'
 
 export function permit2Address(chainId?: number): string {
   switch (chainId) {
@@ -9,8 +9,6 @@ export function permit2Address(chainId?: number): string {
       return '0xe7a62cda3b34a90a6fcc927e36692bf4c9481be1'
     case 324:
       return '0x0000000000225e31D15943971F47aD3022F714Fa'
-    case 841:
-      return '0x4784f74885bb1056ae5168f166fb3235511be14c'
     case 842:
       return '0x7307E61D8d33da0123D516e6431241a9842453C9'
     default:
